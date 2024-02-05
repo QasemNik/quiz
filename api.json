@@ -1,0 +1,125 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "When was the 3rd album &quot;Notes from the Underground&quot; of the band &quot;Hollywood Undead&quot; released?",
+            "correct_answer": "2013",
+            "incorrect_answers": [
+                "2011",
+                "2014",
+                "2009"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+            "correct_answer": "1923",
+            "incorrect_answers": [
+                "1903",
+                "1913",
+                "1933"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "General Knowledge",
+            "question": "What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?",
+            "correct_answer": "Bullfighting",
+            "incorrect_answers": [
+                "Fiestas",
+                "Flamenco",
+                "Mariachi"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Celebrities",
+            "question": "Which actress&#039;s real name was Frances Ethel Gumm?",
+            "correct_answer": "Judy Garland",
+            "incorrect_answers": [
+                "Doris Day",
+                "Julie Andrews",
+                "Marilyn Monroe"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science &amp; Nature",
+            "question": "In aeronautics, flaps and slats are used to control what on an aircraft?",
+            "correct_answer": "Lift",
+            "incorrect_answers": [
+                "Thrust",
+                "Drag",
+                "Weight "
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "Which of the following snipers has the highest amount of confirmed kills?",
+            "correct_answer": "Simo H&auml;yh&auml;",
+            "incorrect_answers": [
+                "Chris Kyle",
+                "Vasily Zaytsev",
+                "Craig Harrison"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "Who developed the 2016 farming RPG &quot;Stardew Valley&quot;?",
+            "correct_answer": "Eric Barone",
+            "incorrect_answers": [
+                "Daisuke Amaya",
+                "Jasper Byrne",
+                "Lucas Pope"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "question": "Which of these television shows makes everyone look under their chair?",
+            "correct_answer": "Oprah",
+            "incorrect_answers": [
+                "Jimmy Fallon",
+                "Saturday Night Live",
+                "Larry Rubert"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Musicals &amp; Theatres",
+            "question": "In which Shakespearean play will you find the suicide of Ophelia?",
+            "correct_answer": "Hamlet",
+            "incorrect_answers": [
+                "Macbeth",
+                "Othello",
+                "King Lear"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "Where is Hadrian&#039;s Wall located?",
+            "correct_answer": "Carlisle, England",
+            "incorrect_answers": [
+                "Rome, Italy",
+                "Alexandria, Egypt",
+                "Dublin, Ireland"
+            ]
+        }
+    ]
+}

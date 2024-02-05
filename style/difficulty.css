@@ -1,0 +1,28 @@
+h3 {
+  font-size: 2.2rem;
+  color: #6757d9;
+  margin-bottom: 70px;
+}
+button {
+  background: #6757d9;
+  color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+button:hover {
+ filter: brightness(95%);
+ 
+}
+
+a:hover {
+    background: #6757d9;
+    color: aliceblue;
+}

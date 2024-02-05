@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html" />
+    <link rel="stylesheet" href="../style/game.css" />
+    <link rel="stylesheet" href="../style/global.css" />
+  </head>
+  <body>
+    <span id="loader"></span>
+    <h6 id="error">Something Went Wrong | Please Try Again</h6>
+    <div id="container">
+      <div class="header">
+        <p class="">Question NO:</p>
+        <span class="question-number">1</span>
+        <div class="">
+          <p class="">Score:</p>
+          <span class="score">0</span>
+        </div>
+      </div>
+      <div id="quiz-box">
+        <h3 id="quiz-text">
+          putting answer
+          <!-- Here putting the answer using JS -->
+        </h3>
+        <button class="answer-text"></button>
+        <button class="answer-text"></button>
+        <button class="answer-text"></button>
+        <button class="answer-text"></button>
+      </div>
+      <button id="finish-btn">Finish</button>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <script src="../js/game.js" type="module"></script>
+    <script src="../js/helper.js" type="module"></script>
+  </body>
+</html>
