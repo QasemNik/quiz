@@ -26,7 +26,7 @@ async function fetchData() {
     formattedData = formatData(json.results);
     start();
   } catch (err) {
-    console.error("خطا در دریافت داده ها:", err);
+
     loader.style.display='none'
     error.style.display='block'
   }
@@ -42,21 +42,19 @@ function showQuestion() {
   let { question, answers, correctAnswerIndex } =
     formattedData[questionIndex];
   correctAnswer = correctAnswerIndex;
-  // console.log(correctAnswer);
+
   questionText.innerText = question;
-  // console.log("formattedData:", formattedData);
-  // console.log("questionIndex:"6, questionIndex);
-  // console.log("formattedData[questionIndex]:", formattedData[questionIndex]);
+
 
   answerList.forEach((button, index) => {
     button.innerText = answers[index];
-    // console.log(answers[index]);
+
   });
-  // console.log(answerList, answers);
+
 }
 function checkAnswer(event, index) {
-  // console.log(index);
 
+  
   if (!isAccepted) return;
   isAccepted = false;
 
@@ -69,7 +67,7 @@ function checkAnswer(event, index) {
   } else {
     event.target.classList.add("incorrect");
     answerList[correctAnswer].classList.add("correct");
-    // console.log(answerList[correctAnswer]);
+
   }
 }
 
@@ -82,15 +80,15 @@ function nextHandler() {
     showQuestion();
   } else {
     setTimeout(() => {
-      //  localStorage.setItem("score", JSON.stringify(score));
-      //  window.location.assign("/HTML/end.html");
+
+      
       finishHandler();
     }, 1500);
 
     finishBtn.innerHTML = "Finished";
     finishBtn.style.backgroundColor = "#6757d9";
     finishBtn.style.color = "#eeedfb";
-    // console.log("finish");
+
   }
 
   function removeClasses() {
