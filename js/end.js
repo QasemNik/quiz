@@ -17,7 +17,7 @@ const saveHandler = () => {
     scoreElem.innerText = "0";
 
     highScore.push(finalScore);
-    // console.log(highScore);
+
     highScore.sort((a, b) => b.score - a.score);
     highScore.splice(10);
 

@@ -7,7 +7,7 @@ function formatData(questionData) {
 
     //!Create  random index
     const correctAnswerIndex = Math.floor(Math.random() * 4);
-    answers.splice(correctAnswerIndex, 0, item.correct_answers);
+    answers.splice(correctAnswerIndex, 0, item.correct_answer);
     questionObj.answers = answers;
     questionObj.correctAnswerIndex = correctAnswerIndex;
     return questionObj;
